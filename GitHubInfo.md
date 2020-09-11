@@ -1,6 +1,6 @@
 # Git Hub Info
 
-(I use GitKraken because that is what I have used in the past, feel free to use whatever interface you are comfortable with and I can do my best to help you)
+I use GitKraken because that is what I have used in the past, feel free to use whatever interface you are comfortable with and I can do my best to help you. I have found GitKraken useful for keeping track of changes I make to files and for interacting with GitHub. 
 1. Download GitKraken (https://www.gitkraken.com/download). You can watch the intro video that comes up after clicking download, but it goes into more detail than anything I have used (however my knowledge is far more limited than what GitKraken can do)
 2. Log in to GitKraken with your GitHub account.
 3. Our lab organization is SWFREC-Soil-Microbiology with repository Soil-Microbiology.
@@ -12,6 +12,6 @@ a. Cloning copies the directory and its contents to your computer as well as est
 8. After this, you likely won't interact with GitKraken except to commit, push, and pull from the GitHub repository. 
 
 ## Commit and Push
-Saving new files and editing existing files to the directory on your computer will be detected by GitKraken. This allows you to stage and commit them (i.e. save a snapshot of the current state of the project). To commit anything, you are required to add a comment in the *Commit Message* area. This is helpful for version control, so you and others know what is different between different versions. The most recent comment will appear next to the filename on GitHub, and previous comments will appear in history for that file on GitHub. This does not need to be detailed, just short but meaningful. Then click *Commit changes to file*. <br> 
+Saving new files and editing existing files to the directory on your computer will be detected by GitKraken. You should see *file change in working directory*. Clicking *view change* allows you to stage and commit the changes (i.e. save a snapshot of the current state of the project). Stage the file and add a commit message. To commit anything, you are required to add a summary or description in the *Commit Message* area. This is helpful for version control, so you and others know at a glance what is different between different versions. The most recent commit message will appear next to the filename on GitHub, and previous versions will appear in history for that file on GitHub. This does not need to be detailed, just short but meaningful. Then click *Commit changes to file*. <br> 
 Committing does not put the changes on the GitHub repository. <br>
 To get these files/changes to the repository, you need to perform a PUSH. Select file in GitKraken and click *Push* at top of screen. You will get a banner on the bottom left saying *Pushed successfully*. <br>
