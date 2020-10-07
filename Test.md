@@ -14,3 +14,6 @@ Adding more to local file
 =======
 Editing documents in GitHub - you can do it but how do commits work?
 >>>>>>> master
+
+
+Adding another line after merge
