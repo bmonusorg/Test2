@@ -29,7 +29,7 @@ b.	Where H2 is the corresponding cell in the sequences per OTU sheet and $H$2305
 14.	Create a new sheet called “OTUs by [variable]” to calculate average OTUs by whatever variable you want to compare<br>
 a.	Copy the same taxonomy columns into the new sheet<br>
 b.	Rather than listing each individual sample, create new column names based on variable groups<br>
-	i.	Ex: treatment1-timepoint1, treatment1-timepoint2
+c.	Ex: treatment1-timepoint1, treatment1-timepoint2
 15.	In the first cell for the first treatment, calculate the average relative abundance for each OUT using the corresponding samples from the “Relativ. Abund” sheet<br>
 a.	=AVERAGE(‘Relativ. Abund'!AY2,'Relativ. Abund !AP2,'Relativ. Abund’!BE2,'Relativ. Abund'!BJ2)<br>
 b.	Where AY2, AP2, BE2, and BJ2 are replicates of the same treatment/timepoint/etc.<br>
@@ -74,8 +74,8 @@ c.	Row 3: Sample 2<br>
 14.	Copy this new sheet into a new Excel file and name the new file as “mydata”
 15.	Open R (not RStudio) version 3.6.2<br>
 a.	Install and load packages apple, vegan, vegetarian, and Rcmdr
-16.	Once R Commander opens in a new window, paste this code in the R Script box<br>
-a.	`morisita<-M.homog(mydata, q=2, std=FALSE)`<br>
+16.	Once R Commander opens in a new window, paste this code in the R Script box:<br>
+`morisita<-M.homog(mydata, q=2, std=FALSE)`<br>
 `mean(morisita)`<br>
 `simmetric<-betadiver(mydata, method=22)`<br>
 `mean(simmetric)`
