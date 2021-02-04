@@ -75,10 +75,10 @@ c.	Row 3: Sample 2<br>
 15.	Open R (not RStudio) version 3.6.2<br>
 a.	Install and load packages apple, vegan, vegetarian, and Rcmdr
 16.	Once R Commander opens in a new window, paste this code in the R Script box<br>
-a.	morisita<-M.homog(mydata, q=2, std=FALSE)<br>
-mean(morisita)<br>
-simmetric<-betadiver(mydata, method=22)<br>
-mean(simmetric)
+a.	`morisita<-M.homog(mydata, q=2, std=FALSE)`<br>
+`mean(morisita)`<br>
+`simmetric<-betadiver(mydata, method=22)`<br>
+`mean(simmetric)`
 17.	Data > Import Data > from Excel file<br>
 a.	Name of dataset: mydata<br>
 b.	OK > select the mydata file created in step 12 > OPEN
